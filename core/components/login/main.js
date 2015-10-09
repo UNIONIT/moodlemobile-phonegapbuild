@@ -62,7 +62,7 @@ angular.module('mm.core.login', [])
         templateUrl: 'core/components/login/templates/credentials.html',
         controller: 'mmLoginCredentialsCtrl',
         params: {
-            siteurl: ''
+            siteurl: 'http://moodle.west.org.uk:8990/moodle2'
         },
         onEnter: function($state, $stateParams) {
             // Do not allow access to this page when the URL was not passed.
