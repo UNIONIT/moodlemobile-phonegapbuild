@@ -23,7 +23,7 @@ angular.module('mm.core.login')
  */
 .controller('mmLoginCredentialsCtrl', function($scope, $state, $stateParams, $mmSitesManager, $mmUtil, $ionicHistory, $mmApp) {
 
-    $scope.siteurl = $stateParams.siteurl;
+    $scope.siteurl = 'http://moodle.west.org.uk:8990/moodle2';
     $scope.credentials = {};
 
     $scope.login = function() {
